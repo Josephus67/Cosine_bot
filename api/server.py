@@ -36,7 +36,7 @@ def serve_static(path):
     return "File not found", 404
 
 # Load spaCy model
-nlp = spacy.load("en_core_web_md")
+# nlp = spacy.load("en_core_web_md")
 
 # Global variables to store document data
 sentences = []
